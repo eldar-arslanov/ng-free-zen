@@ -8,7 +8,43 @@
 
 <body>
   <!-- Шапка сайта -->
-  <header class="header">Шапка сайта</header>
+  <header class="header">
+    <div class="header__wrapper">
+      <button class="header__logo" type="button" id="logo">
+        <img src="./assets/icons/logo.svg" alt="ZEN">
+      </button>
+      <!-- menu-opening -->
+      <ul class="menu" id="menu">
+        <li class="menu__item">
+          <a href="#download" class="menu__link">Download</a>
+        </li>
+        <li class="menu__item">
+          <a href="#warranty" class="menu__link">Warranty</a>
+        </li>
+        <li class="menu__item">
+          <a href="#care" class="menu__link">Care</a>
+        </li>
+        <li class="menu__item">
+          <a href="#cashback" class="menu__link">Cashback</a>
+        </li>
+        <li class="menu__item">
+          <a href="#clients" class="menu__link">Clients</a>
+        </li>
+      </ul>
+      <div class="header__actions">
+        <select class="header__lang" id="lang">
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+        </select>
+        <button class="header__button" type="button" id="theme">
+          <img src="./assets/icons/moon.svg" alt="ZEN" >
+        </button>
+        <button class="header__burger" type="button" id="burger">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
   <!-- Секция 1 -->
   <section class="download" id="download">
     <div class="download__wrapper">
